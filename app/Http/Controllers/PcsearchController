@@ -1,0 +1,21 @@
+?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\Pcmaker;
+
+class PcmakerController extends Controller
+{
+    /**
+     *PC一覧を表示する
+     *@return view
+     */
+    public function pcshowList()
+    {
+        $pcmakers = Pcmaker::all();
+
+        return view('pcmaker.pcsearch',
+        ['pcmakers'=>$pcmakers]);
+    }
+}
