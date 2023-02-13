@@ -1,0 +1,284 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.gamingheader{
+    font-size: 2rem;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 40%;
+}
+
+/*-----サイト説明------*/
+.prheader{
+    margin-top: 30px;
+    left:30%;
+    top:60%;
+    font-size: 30px;
+    text-align: center;
+}
+/*----絞り込み検索-----*/
+.searchparts{
+margin-left: 10%;
+}
+.searchpro{
+    width: 10%;
+}
+
+input[type=checkbox] {
+    transform: scale(2);
+    margin: 0 20px;
+  }
+  
+.pcmakertype{
+    font-size: 20px;
+    margin-top: 15rem;
+    width: 20rem;
+}
+.intelcputype{
+    font-size: 20px;
+    width: 20rem;
+}
+
+.nvidiagputype{
+    font-size: 20px;
+    width: 20rem;
+}
+
+.memorytype{
+    font-size: 20px;
+    width: 20rem;
+}
+
+.searchtitlebrand{
+    background: linear-gradient(transparent 60%, #ffffe0 30%);
+    width: 50%;
+}
+
+.searchtitlecpu{
+    background: linear-gradient(transparent 60%, rgb(253, 185, 255) 30%);
+    width: 50%;
+}
+
+.searchtitlegpu{
+    background: linear-gradient(transparent 60%, rgb(193, 255, 185) 30%);
+    width: 50%;
+}
+
+.searchtitlememory{
+    background: linear-gradient(transparent 60%, rgb(255, 185, 185) 30%);
+    width: 50%;
+}
+
+.searchpro{
+    width: 40%;
+}
+
+.tate{
+    display:block
+}
+
+.search-item{
+    margin-top: 10%;
+    margin-left: 5%;
+    display:grid;
+    grid-template-columns: 30% 30% 30% ;
+    gap:100px 150px;
+    width: 100%;
+    height:100%;
+    padding-right: 30%;
+}
+
+.search-contents{
+    display: flex;
+}
+
+.icon-nav{
+    display: flex;
+}
+
+.fa-brands{
+    font-size: 2rem;
+    
+    }
+
+.icon-nav li{
+    margin-top:5%;
+    margin-right: 5%;
+}
+
+.item-list{
+    width: 150%;
+    text-align: center;
+}
+
+
+
+.pclistpic{
+    height: 200px;
+    width: 200px;
+
+}
+
+.block{
+    margin-top: 30%;
+    width: 200px;
+    height: 500px;
+    font-size: 25px;
+}
+.pctitle{
+    font-size: 15px;
+    background: linear-gradient(transparent 60%, rgb(208, 255, 253) 30%);
+    width: 350px;
+}
+
+.sallbt a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 1em 2em;
+    width: 100px;
+    color: #acb122;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.buybt a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 200px;
+    color: #2285b1;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid #a0c4d3;
+    border-radius: 10px;
+  }
+  .buybt a::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #2285b1;
+    border-right: 3px solid #2285b1;
+    transform: rotate(45deg);
+  }
+
+  
+  .buybt a:hover {
+    color: #ffff;
+    text-decoration: none;
+    background-color: #a0c4d3;
+  }
+  
+  .buybt a:hover::after {
+    border-top: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+  }
+
+.picbtn{
+    color: #fc00b5;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid #cda0d3;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.picbtn:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #d3a0d2;
+  }
+
+.topic-sec{
+    margin-top: 10%;
+}
+
+.toic-text{
+    color:#a0c4d3;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.topic{
+    width: 180px;
+    height: 80px;
+    margin: 30%;
+}
+.topica{
+    margin: 5%;
+    text-align: center;
+}
+
+.topic:hover{
+    filter: blur(2px);
+}
+
+.topic-all{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+      }
+
+
+
+.footer-nav{
+    display: flex;
+}
+
+footer p{
+    margin-left: 50%;
+}
+
+@media (max-width: 1480px){
+
+    .gamingheader{
+        font-size: 2rem;
+        width: 100%;
+        height: fit-content;
+        margin-left: 70%;
+    }
+    .prheader{
+        width: 1500px;
+        margin-top: 30px;
+        margin-left: 20%;
+        left:30%;
+        top:60%;
+        font-size: 30px;
+    }
+
+    .search-item{
+        margin-top: 10%;
+        margin-left: 20%;
+        display:grid;
+        grid-template-columns: 30% 30% 30% ;
+        gap:80px 120px;
+        width: 100%;
+        height:100%;
+        padding-right: 30%;
+    }
+
+    .topic-sec{
+        width: 1500px;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+
+    .topic-all{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        height: 150px;
+          }
+          footer p{
+            margin-left: 80%;
+        }
+
+}
