@@ -34,14 +34,14 @@
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-5700X">ryzen-7-5700X</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-5800">ryzen-7-5800</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-5800X">ryzen-7-5800X</label>
-                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-7700X">cryzen-7-7700X</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-7700X">ryzen-7-7700X</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-5900">ryzen-9-5900</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-5950X">ryzen-9-5950X</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-7950X">ryzen-9-7950X</label>
             </div>  
             <div class="nvidiagputype">
                 <p class ="searchtitlegpu">GPU</p>
-                <Sspan>GTX & RTX30シリーズ</span>
+                <span>GTX & RTX30シリーズ</span>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="GTX1660SUPER">GTX1660SUPER</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="GTX1660Ti">GTX1660Ti</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3050">RTX3050</label>

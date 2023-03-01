@@ -56,37 +56,40 @@ input[type=checkbox] {
 }
 
 .searchtitlecpu{
+    font-weight: bold;
     background: linear-gradient(transparent 60%, rgb(253, 185, 255) 30%);
     width: 50%;
 }
 
 .searchtitlegpu{
+    font-weight: bold;
     background: linear-gradient(transparent 60%, rgb(193, 255, 185) 30%);
     width: 50%;
 }
 
 .searchtitlememory{
+    font-weight: bold;
     background: linear-gradient(transparent 60%, rgb(255, 185, 185) 30%);
     width: 50%;
 }
 
 .searchpro{
-    width: 40%;
+    margin-left: 2%;
+    width: 25%;
 }
 
 .tate{
-    display:block
+    display:block;
+    padding-top: 5%;
 }
 
 .search-item{
     margin-top: 10%;
-    margin-left: 5%;
     display:grid;
-    grid-template-columns: 30% 30% 30% ;
+    grid-template-columns: 22% 22% 22% ;
     gap:100px 150px;
     width: 100%;
     height:100%;
-    padding-right: 30%;
 }
 
 .search-contents{
@@ -231,6 +234,15 @@ input[type=checkbox] {
 
 .footer-nav{
     display: flex;
+}
+
+.footer-menu{
+    display:flex;
+    margin-left: 30%;
+}
+
+.footer-menu a{
+    padding: 5%;
 }
 
 footer p{
