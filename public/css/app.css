@@ -20,9 +20,13 @@ html{
 /*----絞り込み検索-----*/
 .searchparts{
 margin-left: 10%;
+height:80%4;
+width:80%;
+
 }
 .searchpro{
-    width: 10%;
+    width: 25%;
+    margin-left: 2%;
 }
 
 input[type=checkbox] {
@@ -73,10 +77,6 @@ input[type=checkbox] {
     width: 50%;
 }
 
-.searchpro{
-    margin-left: 2%;
-    width: 25%;
-}
 
 .tate{
     display:block;
@@ -84,7 +84,7 @@ input[type=checkbox] {
 }
 
 .search-item{
-    margin-top: 10%;
+    margin-top: 5%;
     display:grid;
     grid-template-columns: 22% 22% 22% ;
     gap:100px 150px;
@@ -94,6 +94,7 @@ input[type=checkbox] {
 
 .search-contents{
     display: flex;
+    padding-top: 0;
 }
 
 .icon-nav{
@@ -239,6 +240,7 @@ input[type=checkbox] {
 .footer-menu{
     display:flex;
     margin-left: 30%;
+    margin-top:10%;
 }
 
 .footer-menu a{
@@ -249,7 +251,7 @@ footer p{
     margin-left: 50%;
 }
 
-@media (max-width: 1480px){
+@media (max-width: 820px){
 
     .gamingheader{
         font-size: 2rem;
@@ -276,6 +278,11 @@ footer p{
         height:100%;
         padding-right: 30%;
     }
+    .searchparts{
+        margin-left: 50%;
+        width: 20%;
+        height: 20%;
+    }
 
     .topic-sec{
         width: 1500px;
@@ -289,8 +296,12 @@ footer p{
         align-items: center;
         height: 150px;
           }
-          footer p{
-            margin-left: 80%;
+    footer{
+        margin-top: 10%;
+    }
+    .footer-menu {
+        margin-left: 50%;
+        text-align: center;
         }
 
 }

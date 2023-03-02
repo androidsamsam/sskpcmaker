@@ -45,7 +45,7 @@
         @endforeach
         </div>
     </div>
-    <section class ="topic-sec">
+     <!--  <section class ="topic-sec">
     <p class= "toic-text">↓各種ブランドまとめ情報・解説記事一覧↓</p>
         <div class = "topic-all">
              <a href = "https://onikari.com/omen/" class = "topica"><img src ="https://onikari.com/wp-content/uploads/2022/08/OMEN2.gif"  class ="topic"></a>
@@ -55,9 +55,9 @@
              <a href = "https://onikari.com/ssk/" class = "topica"><img src ="https://onikari.com/ssk/wp-content/uploads/2022/12/ssk%E3%83%98%E3%83%83%E3%83%80%E3%83%BC2.png"  class ="topic"></a>
             </div>
 
-    </section>
-    </body>
+    </section>-->
     <footer>
 @include('footer')
 </footer>
+</body>
 </html>
