@@ -6,5 +6,4 @@
 <P>人気ゲーミングPCを</P>
 <p>ブランドの枠を超えて一括で検索</P>
 <p>対象ブランドはOMEN、FRONTIER、Alienware、GALLERIA</P>
-<p>※キャンペーン内容調整中</P>
     </div>
