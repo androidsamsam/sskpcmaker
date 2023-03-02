@@ -13,8 +13,10 @@
         <meta charset="UTF-8">
         <title>@yield('title')</title>
         <meta name="description" conntent="ゲーミングPCを検索">
+        <meta name="viewport" content="width=device-width, initiial-scale=1">
     <!--css-->
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" hrref="http://unpkg.com/ress/dist/ress.min.css">
     <script src="https://kit.fontawesome.com/37671d8671.js" crossorigin="anonymous"></script>
     <script src="/js/app.js" defer></script>
     </head>
