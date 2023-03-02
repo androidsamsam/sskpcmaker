@@ -56,8 +56,8 @@
             </div>
 
     </section>-->
-    <footer>
+</body>
+<footer>
 @include('footer')
 </footer>
-</body>
 </html>
