@@ -183,6 +183,7 @@ input[type=checkbox] {
     border-right: 3px solid #ffffff;
   }
 
+  /*絞り込み検索ボタン*/
 .picbtn{
     color: #fc00b5;
     font-size: 18px;
@@ -192,6 +193,16 @@ input[type=checkbox] {
     width: 200px;
     height: 50px;
 }
+_::-webkit-full-page-media,_:future,:root .picbtn{
+    background-color: #cfe0ff;
+    color: #fc00b5;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid #cda0d3;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    }
 
 .picbtn:hover {
     color: #ffffff;
@@ -278,10 +289,9 @@ footer p{
         height:100%;
         padding-right: 30%;
     }
+    /*ヘッダー画像*/
     .searchparts{
-        margin-left: 50%;
-        width: 20%;
-        height: 20%;
+        margin-left: 70%;
     }
 
     .topic-sec{
@@ -300,8 +310,7 @@ footer p{
         margin-top: 10%;
     }
     .footer-menu {
-        margin-left: 50%;
-        text-align: center;
+        margin-left:25%;
         }
 
 }
