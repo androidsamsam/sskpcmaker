@@ -26,9 +26,6 @@
     <body>
     <main>
         @foreach ($pcmakers as $pcmaker) 
-        <!--後で挿入 
-            <div class = "memo-img"><a href = "{{ $pcmaker->afurl}}" target=_blank><img class="memo-img-pic" src="{{ $pcmaker->image}}"></img></a></div>
--->
 <div class = "memo-img"><img class="memo-img-pic" src="https://onikari.com/wp-content/uploads/2023/02/favicon.png"></img></a></div>
         <div class = "memo-text">
             <p>「フロンティア」とは、言葉の意味としては、新しい領域や未開拓地、あるいは未知の分野などを指します。</p>
