@@ -23,7 +23,9 @@ class Pcmaker extends Model
         'memory',
         'image',
         'afurl',
-        'campaignurl'
+        'campaignurl',
+        'storage',
+        'power'
     ];
 
 }
