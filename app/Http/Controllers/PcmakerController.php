@@ -58,8 +58,8 @@ class PcmakerController extends Controller
        * @param int $id
        * @return view
      */
-      public function memoshowList(Request $request , $id){ 
-        $pcmakers = Pcmaker::find($id);
+        public function memoshowList(Request $request , $id){ 
+        $pcmemomakers = Pcmaker::find($id);
         $image = $request->input('image');
         $cpu = $request->input('cpu');
         $gpu = $request->input('gpu');
@@ -71,15 +71,17 @@ class PcmakerController extends Controller
         /* if (is_null($pcmakers)){
             \session::flash('err_msg','データがありません');
             return redirect(route('pcall'));
+
+                      return view('pcmaker.memo', ['campaign' => $campaign,'pcmakers'=>$pcmakers]);
          } */
-         return view('pcmaker.memo', ['image' => $image,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['cpu' => $cpu,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['gpu' => $gpu,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['memory' => $memory,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['storage' => $storage,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['power' => $power,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['price' => $price,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['campaign' => $campaign,'pcmakers'=>$pcmakers]);
+         return view('pcmaker.memo', ['image' => $image,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['cpu' => $cpu,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['gpu' => $gpu,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['memory' => $memory,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['storage' => $storage,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['power' => $power,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['price' => $price,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['campaign' => $campaign,'pcmemomakers'=>$pcmemomakers]);
       }
 
 }
