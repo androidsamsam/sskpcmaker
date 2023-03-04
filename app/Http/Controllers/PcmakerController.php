@@ -74,14 +74,14 @@ class PcmakerController extends Controller
 
                       return view('pcmaker.memo', ['campaign' => $campaign,'pcmakers'=>$pcmakers]);
          } */
-         return view('pcmaker.memo', ['image' => $image,'pcmakers'=>$pcmemomakers]);
-          return view('pcmaker.memo', ['cpu' => $cpu,'pcmakers'=>$pcmemomakers]);
-          return view('pcmaker.memo', ['gpu' => $gpu,'pcmakers'=>$pcmemomakers]);
-          return view('pcmaker.memo', ['memory' => $memory,'pcmakers'=>$pcmemomakers]);
-          return view('pcmaker.memo', ['storage' => $storage,'pcmakers'=>$pcmemomakers]);
-          return view('pcmaker.memo', ['power' => $power,'pcmakers'=>$pcmemomakers]);
-          return view('pcmaker.memo', ['price' => $price,'pcmakers'=>$pcmemomakers]);
-          return view('pcmaker.memo', ['campaign' => $campaign,'pcmakers'=>$pcmemomakers]);
+         return view('pcmaker.memo', ['image' => $image,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['cpu' => $cpu,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['gpu' => $gpu,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['memory' => $memory,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['storage' => $storage,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['power' => $power,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['price' => $price,'pcmemomakers'=>$pcmemomakers]);
+          return view('pcmaker.memo', ['campaign' => $campaign,'pcmemomakers'=>$pcmemomakers]);
       }
 
 }
