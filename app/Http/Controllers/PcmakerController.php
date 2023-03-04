@@ -58,15 +58,19 @@ class PcmakerController extends Controller
        * @param int $id
        * @return view
      */
-      public function memoshowList($id){ 
-         $pcmaker = Pcmaker::find($id);
-
-          if (is_null($pcmaker)){
-            Session::flash('err_msg','データがありません');
+      public function memoshowList(Request $request , $id){ 
+        $cpu = $request->input('cpu');
+        $gpu = $request->input('gpu');
+        $memory = $request->input('memory');
+        $pcmakers = Pcmaker::find($id);
+        /* if (is_null($pcmakers)){
+            \session::flash('err_msg','データがありません');
             return redirect(route('pcall'));
-         } 
+         } */
          
-          return view('pcmaker.memo', ['pcmaker'=>$pcmaker]);
+          return view('pcmaker.memo', ['cpu' => $cpu,'pcmakers'=>$pcmakers]);
+          return view('pcmaker.memo', ['gpu' => $gpu,'pcmakers'=>$pcmakers]);
+          return view('pcmaker.memo', ['memory' => $memory,'pcmakers'=>$pcmakers]);
       }
 
 }
