@@ -9,7 +9,6 @@ class PcmakerController extends Controller
 {
     /**
      *PC詳細を表示する
-     *@param int $id
      *@return view
      */
 
@@ -56,18 +55,18 @@ class PcmakerController extends Controller
 
       /** 
        * 記事詳細表示 
-      */
-    
-      public function memoshowList($id)
-      { 
-         $pcmakers = Pcmaker::find($id);
-         
-        /* if (is_null($pcmakers)){
-            \session::flash('err_msg','データがありません');
+       * @param int $id
+       * @return view
+     */
+      public function memoshowList($id){ 
+         $pcmaker = Pcmaker::find($id);
+
+          if (is_null($pcmaker)){
+            Session::flash('err_msg','データがありません');
             return redirect(route('pcall'));
-         } */
+         } 
          
-          return view('pcmaker.memo', ['pcmakers'=>$pcmakers]);
+          return view('pcmaker.memo', ['pcmaker'=>$pcmaker]);
       }
 
 }

@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 //商品絞り込み検索
 Route::post('/pcpc','App\Http\Controllers\PcmakerController@pcshowList')->name('pcbrandshow');
 Route::get('/','App\Http\Controllers\PcmakerController@pcallshowList')->name('pcall');
-
+//メモ詳細表示
 Route::get('/pcpc/{id}', 'App\Http\Controllers\PcmakerController@memoshowList')->name('memoshow');
