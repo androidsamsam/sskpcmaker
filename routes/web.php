@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::post('/pcpc','App\Http\Controllers\PcmakerController@pcshowList')->name('pcbrandshow');
 Route::get('/','App\Http\Controllers\PcmakerController@pcallshowList')->name('pcall');
 
+Route::get('/pcpc/{id}', 'App\Http\Controllers\PcmakerController@memoshowList')->name('memoshow');
