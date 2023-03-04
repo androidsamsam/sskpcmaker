@@ -41,31 +41,31 @@
             <table border ="1">
                 <tr>
                   <th>CPU</th>
-                  <td>{{ $pcmemomaker->cpu}}</td>
+                  <td>{{ $pcmemomakers->cpu}}</td>
                 </tr>
                 <tr>
                   <th>GPU</th>
-                  <td>{{ $pcmemomaker->gpu}}</td>
+                  <td>{{ $pcmemomakers->gpu}}</td>
                 </tr>
                 <tr>
                   <th>メモリ</th>
-                  <td>{{ $pcmemomaker->memory}}GB</td>
+                  <td>{{ $pcmemomakers->memory}}GB</td>
                 </tr>
                 <tr>
                   <th>ストレージ</th>
-                  <td>{{ $pcmemomaker->storage}}</td>
+                  <td>{{ $pcmemomakers->storage}}</td>
                 </tr>
                 <tr>
                   <th>電源</th>
-                  <td>{{ $pcmemomaker->power}}</td>
+                  <td>{{ $pcmemomakers->power}}</td>
                 </tr>
                 <tr>
                   <th>価格</th>
-                  <td>{{ $pcmemomaker->price}}</td>
+                  <td>{{ $pcmemomakers->price}}</td>
                 </tr>
                 <tr>
                   <th>セール情報</th>
-                  <td>{{ $pcmemomaker->campaign}}</td>
+                  <td>{{ $pcmemomakers->campaign}}</td>
                 </tr>
               </table> 
         </div>
