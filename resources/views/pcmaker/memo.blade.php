@@ -25,8 +25,8 @@
     </header>
     <body>
     <main>
-        @foreach ($pcmakers as $pcmaker) 
-<div class = "memo-img"><img class="memo-img-pic" src="{{ $pcmakers ->image}}"></img></a></div>
+        @foreach ($pcmemomakers as $pcmemomaker) 
+<div class = "memo-img"><img class="memo-img-pic" src="{{ $pcmemomakers ->image}}"></img></a></div>
         <div class = "memo-text">
             <p>「フロンティア」とは、言葉の意味としては、新しい領域や未開拓地、あるいは未知の分野などを指します。</p>
             <p> この言葉は、様々な分野で用いられ、例えば、科学技術の分野での新しい発見や、ビジネスの分野での新しい市場の開拓、</p>
@@ -41,31 +41,31 @@
             <table border ="1">
                 <tr>
                   <th>CPU</th>
-                  <td>{{ $pcmakers->cpu}}</td>
+                  <td>{{ $pcmemomaker->cpu}}</td>
                 </tr>
                 <tr>
                   <th>GPU</th>
-                  <td>{{ $pcmakers->gpu}}</td>
+                  <td>{{ $pcmemomaker->gpu}}</td>
                 </tr>
                 <tr>
                   <th>メモリ</th>
-                  <td>{{ $pcmakers->memory}}GB</td>
+                  <td>{{ $pcmemomaker->memory}}GB</td>
                 </tr>
                 <tr>
                   <th>ストレージ</th>
-                  <td>{{ $pcmakers->storage}}</td>
+                  <td>{{ $pcmemomaker->storage}}</td>
                 </tr>
                 <tr>
                   <th>電源</th>
-                  <td>{{ $pcmakers->power}}</td>
+                  <td>{{ $pcmemomaker->power}}</td>
                 </tr>
                 <tr>
                   <th>価格</th>
-                  <td>{{ $pcmakers->price}}</td>
+                  <td>{{ $pcmemomaker->price}}</td>
                 </tr>
                 <tr>
                   <th>セール情報</th>
-                  <td>{{ $pcmakers->campaign}}</td>
+                  <td>{{ $pcmemomaker->campaign}}</td>
                 </tr>
               </table> 
         </div>
