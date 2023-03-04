@@ -59,7 +59,7 @@ class PcmakerController extends Controller
        * @return view
      */
         public function memoshowList(Request $request , $id){ 
-        $pcmakers = Pcmaker::find($id);
+        $pcmaker = Pcmaker::find($id);
         $image = $request->input('image');
         $cpu = $request->input('cpu');
         $gpu = $request->input('gpu');
@@ -72,14 +72,14 @@ class PcmakerController extends Controller
             \session::flash('err_msg','データがありません');
             return redirect(route('pcall'));
          } */
-         return view('pcmaker.memo', ['image' => $image,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['cpu' => $cpu,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['gpu' => $gpu,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['memory' => $memory,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['storage' => $storage,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['power' => $power,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['price' => $price,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['campaign' => $campaign,'pcmakers'=>$pcmakers]);
+         return view('pcmaker.memo', ['image' => $image,'pcmakers'=>$pcmaker]);
+          return view('pcmaker.memo', ['cpu' => $cpu,'pcmakers'=>$pcmaker]);
+          return view('pcmaker.memo', ['gpu' => $gpu,'pcmakers'=>$pcmaker]);
+          return view('pcmaker.memo', ['memory' => $memory,'pcmakers'=>$pcmaker]);
+          return view('pcmaker.memo', ['storage' => $storage,'pcmakers'=>$pcmaker]);
+          return view('pcmaker.memo', ['power' => $power,'pcmakers'=>$pcmaker]);
+          return view('pcmaker.memo', ['price' => $price,'pcmakers'=>$pcmaker]);
+          return view('pcmaker.memo', ['campaign' => $campaign,'pcmakers'=>$pcmaker]);
       }
 
 }
