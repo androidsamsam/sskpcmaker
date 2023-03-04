@@ -59,6 +59,7 @@ class PcmakerController extends Controller
        * @return view
      */
       public function memoshowList(Request $request , $id){ 
+        $pcmakers = Pcmaker::find($id);
         $image = $request->input('image');
         $cpu = $request->input('cpu');
         $gpu = $request->input('gpu');
@@ -67,7 +68,6 @@ class PcmakerController extends Controller
         $power = $request->input('power');
         $price = $request->input('price');
         $campaign = $request->input('campaign');
-        $pcmakers = Pcmaker::find($id);
         /* if (is_null($pcmakers)){
             \session::flash('err_msg','データがありません');
             return redirect(route('pcall'));
