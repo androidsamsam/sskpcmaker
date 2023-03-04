@@ -38,18 +38,18 @@
           </p>
           @endif  -->
         <div class = "memo-table">
-            <table border="1">
+            <table border ="1">
                 <tr>
                   <th>CPU</th>
-                  <td>{{ $pcmaker->cpu}}</td>
+                  <td>{{ $pcmakers->cpu}}</td>
                 </tr>
                 <tr>
                   <th>GPU</th>
-                  <td>{{ $pcmaker->gpu}}</td>
+                  <td>{{ $pcmakers->gpu}}</td>
                 </tr>
                 <tr>
                   <th>メモリ</th>
-                  <td>{{ $pcmaker->memory}}B</td>
+                  <td>{{ $pcmakers->memory}}B</td>
                 </tr>
                 <tr>
                   <th>ストレージ</th>
