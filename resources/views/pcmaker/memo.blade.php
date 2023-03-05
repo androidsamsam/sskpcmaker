@@ -65,7 +65,7 @@
                   <td><a href = "{{ $pcmakers->campaignurl}}" target=_blank>{{ $pcmakers->campaign_content}}</a></td>
                 </tr>
                 <tr>
-                  <div class = "buybt"><a href="{{ $pcmakers->afurl}}" target=_blank>購入画面はこちら</div>
+                  <td><div class = "buybt"><a href="{{ $pcmakers->afurl}}" target=_blank>購入画面はこちら</div></td>
                 </tr>
               </table> 
         </div>
