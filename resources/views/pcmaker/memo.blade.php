@@ -32,6 +32,10 @@
         </div>
         <div class = "memo-table">
             <table border ="1">
+            <tr>
+                  <th>モデル名</th>
+                  <td><a href = "{{ $pcmakers->afurl}}" target=_blank>{{ $pcmakers->product}}</a></td>
+                </tr>
                 <tr>
                   <th>CPU</th>
                   <td>{{ $pcmakers->cpu}}</td>
@@ -59,6 +63,9 @@
                 <tr>
                   <th>セール情報</th>
                   <td><a href = "{{ $pcmakers->campaignurl}}" target=_blank>{{ $pcmakers->campaign_content}}</a></td>
+                </tr>
+                <tr>
+                  <td><div class = "buybt"><a href="{{ $pcmaker->afurl}}" target=_blank>購入画面はこちら</div>/td>
                 </tr>
               </table> 
         </div>
