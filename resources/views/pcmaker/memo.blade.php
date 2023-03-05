@@ -58,7 +58,7 @@
                 </tr>
                 <tr>
                   <th>セール情報</th>
-                  <td><a href = "{{ $pcmaker->campaignurl}}" target=_blank>{{ $pcmakers->campaign_content}}</a></td>
+                  <td><a href = "{{ $pcmakers->campaignurl}}" target=_blank>{{ $pcmakers->campaign_content}}</a></td>
                 </tr>
               </table> 
         </div>
