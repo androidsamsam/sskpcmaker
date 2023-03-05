@@ -25,7 +25,8 @@ class Pcmaker extends Model
         'afurl',
         'campaignurl',
         'storage',
-        'power'
+        'power',
+        'campaign_content'
     ];
 
 }
