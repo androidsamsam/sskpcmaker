@@ -26,9 +26,9 @@
     <body>
 <div class = "memo-img"><img class="memo-img-pic" src="{{ $pcmakers ->image}}"></img></a></div>
         <div class = "memo-text">
-            <p>「フロンティア」とは、言葉の意味としては、新しい領域や未開拓地、あるいは未知の分野などを指します。</p>
-            <p> この言葉は、様々な分野で用いられ、例えば、科学技術の分野での新しい発見や、ビジネスの分野での新しい市場の開拓、</p>
-            <p> あるいは社会的な問題に対する新しいアプローチなど、広い意味での「未知の領域」を指します。</p>
+            <p>----------------------工事中--------------------------------------</p>
+            <p> ----------------------工事中--------------------------------------</p>
+            <p> ----------------------工事中--------------------------------------</p>
         </div>
         <div class = "memo-table">
             <table border ="1">
@@ -54,11 +54,11 @@
                 </tr>
                 <tr>
                   <th>価格</th>
-                  <td>{{ $pcmakers->price}}</td>
+                  <td>{{ $pcmakers->price}}円</td>
                 </tr>
                 <tr>
                   <th>セール情報</th>
-                  <td>{{ $pcmakers->campaign}}</td>
+                  <td><a href = "{{ $pcmaker->campaignurl}}" target=_blank>{{ $pcmakers->campaign_content}}</a></td>
                 </tr>
               </table> 
         </div>
