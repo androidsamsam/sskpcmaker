@@ -68,6 +68,7 @@ class PcmakerController extends Controller
         $power = $request->input('power');
         $price = $request->input('price');
         $campaign = $request->input('campaign');
+        $coment = $request->input('coment');
         /* if (is_null($pcmakers)){
             \session::flash('err_msg','データがありません');
             return redirect(route('pcall'));
@@ -80,6 +81,7 @@ class PcmakerController extends Controller
           return view('pcmaker.memo', ['power' => $power,'pcmakers'=>$pcmakers]);
           return view('pcmaker.memo', ['price' => $price,'pcmakers'=>$pcmakers]);
           return view('pcmaker.memo', ['campaign' => $campaign,'pcmakers'=>$pcmakers]);
+          return view('pcmaker.memo', ['coment' => $campaign,'pcmakers'=>$pcmakers]);
       }
 
 }

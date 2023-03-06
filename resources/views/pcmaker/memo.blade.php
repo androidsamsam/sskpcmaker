@@ -26,9 +26,8 @@
     <body>
 <div class = "memo-img"><img class="memo-img-pic" src="{{ $pcmakers ->image}}"></img></a></div>
         <div class = "memo-text">
-            <p>----------------------工事中--------------------------------------</p>
-            <p> ----------------------工事中--------------------------------------</p>
-            <p> ----------------------工事中--------------------------------------</p>
+            <p>{ $pcmakers->product}}</p>
+
         </div>
         <div class = "memo-table">
             <table border ="1">
