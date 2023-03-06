@@ -263,7 +263,15 @@ footer p{
 }
 
 /*memo層*/
+.memo-img-text{
+    display: flex;
+}
+.memo-img{
 
+}
+.memo-text{
+    line-height: 50px;
+}
 
 
 @media (max-width: 840px){
