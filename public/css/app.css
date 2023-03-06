@@ -265,12 +265,15 @@ footer p{
 /*memo層*/
 .memo-img-text{
     display: flex;
+    height: auto;
+    width: auto;
 }
 
 
 
 .memo-text{
     line-height: 50px;
+    width: 50%;
 }
 
 
