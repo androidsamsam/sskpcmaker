@@ -359,7 +359,9 @@ footer p{
     width: auto;
 }
 
-
+.memo-text{
+    width: 100%;
+}
     footer{
         margin-top: 10%;
     }
@@ -409,9 +411,6 @@ footer p{
     }
 
 
-    .item-list{
-
-    }
 /*削除済み記事アイコン*/
   /*  .topic-sec{
         width: 1500px;
@@ -433,6 +432,9 @@ footer p{
     width: auto;
 }
 
+.memo-text{
+    width: 100%;
+}
 
     footer{
         margin-top: 50%;
