@@ -277,9 +277,10 @@ footer p{
 .memo-text{
     line-height: 50px;
     width: 50%;
+    color: #333333;
 }
 
-memo-table{
+.memo-table{
     width: 100%;
     margin-top: 20%;
 
@@ -292,6 +293,7 @@ memo-table{
 .memo-table td{
     vertical-align: middle;
     height: 50px;
+    text-align: center;
  }
 
  .memo-buybt{
