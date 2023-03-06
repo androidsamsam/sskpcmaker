@@ -278,6 +278,7 @@ footer p{
     line-height: 50px;
     width: 50%;
     color: #333333;
+    background-image:url('storage/SEARCHER_parts.jpg');
 }
 
 .memo-table{
@@ -301,6 +302,7 @@ footer p{
 
  .memo-buybt{
     text-align: center;
+    margin: 5%;
  }
 
 @media (max-width: 840px){
