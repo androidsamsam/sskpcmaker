@@ -305,6 +305,10 @@ footer p{
     margin: 5%;
  }
 
+ .memo-icon{
+    color: #9500ff;
+ }
+
 @media (max-width: 840px){
     .block{
         margin-left: 50%;
