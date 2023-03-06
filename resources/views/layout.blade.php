@@ -20,16 +20,15 @@
     <script src="https://kit.fontawesome.com/37671d8671.js" crossorigin="anonymous"></script>
     <script src="/js/app.js" defer></script>
     </head>
-    <body>
     <header>
         @include('header')
     </header>
+    <body>
     <a href="{{url('/memomemo')}}"> </a>
     <div class="search-contents wrapper">
         <aside class="searchpro">
         @yield('searchside')
         </aside>
-        <main>
         <div class="search-item">
         @foreach ($pcmakers as $pcmaker) 
         <div class = "block">
@@ -48,7 +47,6 @@
         </div>
         @endforeach
         </div>
-        </main>
     </div>
      <!--  <section class ="topic-sec">
     <p class= "toic-text">↓各種ブランドまとめ情報・解説記事一覧↓</p>
