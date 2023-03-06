@@ -31,7 +31,7 @@
         </div>
         </div>
         <div class = "memo-table">
-            <table  border ="1">
+            <table class = "memo-table-main" border ="1">
             <tr>
                   <th>モデル名</th>
                   <td><a href = "{{ $pcmakers->afurl}}" target=_blank>{{ $pcmakers->product}}</a></td>
