@@ -285,6 +285,9 @@ footer p{
     margin-top: 5%;
 
 }
+.memo-table-main{
+    width: 100%;
+}
 
 .memo-table th{
    vertical-align: middle;
