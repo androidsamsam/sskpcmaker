@@ -24,7 +24,7 @@
         @include('header')
     </header>
     <body>
-        <div class = "memo-img-tetx"></div>
+        <div class = "memo-img-text"></div>
         <div class = "memo-img"><img class="memo-img-pic" src="{{ $pcmakers ->image}}"></img></a></div>
         <div class = "memo-text">
             <p>{{ $pcmakers->coment}}</p>
