@@ -269,7 +269,10 @@ footer p{
     width: auto;
 }
 
-
+.memo-img{
+    width: 50%;
+    height: 50%;
+}
 
 .memo-text{
     line-height: 50px;
