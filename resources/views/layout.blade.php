@@ -14,6 +14,8 @@
         <title>@yield('title')</title>
         <meta name="description" conntent="ゲーミングPCを検索">
         <meta name="viewport" content="width=device-width, initiial-scale=1">
+        <meta name="description" content="OMEN、GALLERIA、FRONTIER、AlienwareのゲーミングPCデスクトップを横断的に比較・検索できるサイトです。セール情報も確認できるので、ゲーミングパソコンをこれから探す人にオススメのサイトです。" />
+        <meta name="keywords" content="ゲーミングPC 比較,ゲーミングPC 検索,ゲーミングパソコン 検索,ゲーミングパソコン 比較,ゲーミングPC おすすめ">
     <!--css-->
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" hrref="http://unpkg.com/ress/dist/ress.min.css">
