@@ -63,7 +63,7 @@
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3080">RTX3080</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3080ti">RTX3080Ti</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3090">RTX3090</label></br></br>
-                <Sspan>最新RTX40シリーズ</span>
+                <span>最新RTX40シリーズ</span>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4070Ti">RTX4070Ti</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4080">RTX4080</label>               
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4090">RTX4090</label></br></br>
@@ -71,7 +71,7 @@
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6600XT">RX6600XT</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6650XT">RX6650XT</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6700XT">RX6700XT</label>     
-                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6750XT">RX6750XT</label>               
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6750XT">RX6750XT</label></br></br>             
                 <Sspan>その他</span>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="ArcA750">ArcA750</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="ArcA770">ArcA770</label>               
