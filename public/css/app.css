@@ -319,10 +319,9 @@ footer p{
         margin-left: 70%;
     }
     .prheader{
-        width: 1500px;
+        width: 100%;
         margin-top: 30px;
-        margin-left: 20%;
-        left:30%;
+        margin-left: 40%;
         top:60%;
         font-size: 30px;
     }
@@ -339,7 +338,7 @@ footer p{
     }
     /*ヘッダー画像*/
     .searchparts{
-        margin-left: 70%;
+        margin-left: 50%;
     }
 
     .topic-sec{
@@ -371,6 +370,7 @@ footer p{
 }
 @media (max-width: 420px){
     .block{
+        margin-top: 70%;
         margin-left: 50%;
         width: 60%;
         height: 60%;
@@ -378,15 +378,16 @@ footer p{
 
     .gamingheader{
         font-size: 2rem;
-        width: 2000px;
+        width: 120%;
         height: fit-content;
         margin-left: 70%;
     }
     .prheader{
-        width: 1000px;
+        width: 100%;
         margin-top: 30px;
         top:60%;
         font-size: 15px;
+        margin-left: 50%;
     }
 
     .search-item{
