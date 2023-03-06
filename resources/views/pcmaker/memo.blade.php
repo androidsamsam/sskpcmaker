@@ -64,10 +64,10 @@
                   <th>セール情報</th>
                   <td><a href = "{{ $pcmakers->campaignurl}}" target=_blank>{{ $pcmakers->campaign_content}}</a></td>
                 </tr>
-                <tr>
-                  <td><div class = "buybt"><a href="{{ $pcmakers->afurl}}" target=_blank>購入画面はこちら</div></td>
-                </tr>
               </table> 
+
+<div class = "memo-buybt"><div class = "buybt"><a href="{{ $pcmakers->afurl}}" target=_blank>購入画面はこちら</div></div>
+
         </div>
     </main>
     </body>
