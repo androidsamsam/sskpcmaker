@@ -284,6 +284,7 @@ footer p{
 .memo-img{
     width: 50%;
     height: 50%;
+    margin-left: 10%;
 }
 
 .memo-text{
@@ -369,12 +370,22 @@ footer p{
         align-items: center;
         height: 150px;
           }
+/*メモ階層レスポンシブ840*/
+.gamingheader-memo{
+    font-size: 1rem;
+}
+
+.searchparts-memo-wrapper{
+    width: 50%;
+    height: 50%;
+}
+
+
 .memo-img-text{
     display: block;
     height: auto;
     width: auto;
 }
-
 .memo-text{
     width: 100%;
 }
@@ -442,6 +453,7 @@ footer p{
         height: 150px;
           }
               */
+
 .memo-img-text{
     display: block;
     height: auto;
