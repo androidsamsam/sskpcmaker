@@ -21,7 +21,11 @@
     <script src="/js/app.js" defer></script>
     </head>
     <header>
-        @include('header')
+    <h2 class = gamingheader-memo>ゲーミングPC　検索サイト</h2>
+<a href ="https://pcsearch.net/"><img class="searchparts-memo" src = "{{asset('storage/SEARCHER_parts.jpg')}}"></a>
+</div>
+</div>
+    <div class=prheader>
     </header>
     <body>
         <div class = "memo-img-text">
