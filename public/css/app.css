@@ -264,6 +264,12 @@ footer p{
 
 /*memo層*/
 /*メモ層のヘッダー部分*/
+
+.gamingheader-memo{
+    font-size: 1rem;
+    margin-left: 40%;
+}
+
 .searchparts-memo-wrapper{
     width: 50000px;
     height: 100px;
