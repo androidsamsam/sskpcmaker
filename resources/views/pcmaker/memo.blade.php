@@ -66,7 +66,7 @@
                 </tr>
               </table> 
           </div>
-          <div class = "memo-buybt"><div class = "buybt"><a href="{{ $pcmakers->afurl}}" target=_blank>購入画面はこちら</div></div>
+          <div class = "memo-buybt"><div class = "buybt"><a href="{{ $pcmakers->afurl}}" target=_blank>公式サイト購入画面はこちら</div></div>
 
 
     </main>
