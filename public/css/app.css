@@ -271,8 +271,8 @@ footer p{
 }
 
 .searchparts-memo-wrapper{
-    width: 50000px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
 }
 
 .memo-img-text{
