@@ -272,9 +272,10 @@ footer p{
     text-align: center;
 }
 .searchparts-memo{
-margin-left: 10%;
-height:80%;
-width:80%;
+    width: 420px;
+    height: 140px;
+    height:100%;
+    width:100%;
 
 }
 
