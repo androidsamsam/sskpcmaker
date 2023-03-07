@@ -264,16 +264,9 @@ footer p{
 
 /*memo層*/
 /*メモ層のヘッダー部分*/
-.prheader-memo{
-    margin-top: 30px;
-    left:30%;
-    top:60%;
-    font-size: 30px;
-    text-align: center;
-}
-.searchparts-memo{
-    width: 420px;
-    height: 140px;
+.searchparts-memo-wrapper{
+    width: 100%;
+    height: 100%;
 }
 
 .memo-img-text{
