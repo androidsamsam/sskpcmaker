@@ -43,7 +43,7 @@
             <li><a>GPU：{{ $pcmaker->gpu}}</a></li>
             <li><a>メモリ：{{ $pcmaker->memory}}</a>GB</li>
             <li><a>価格：{{ $pcmaker->price}}</a>円</li>        
-            <l1><div class = "buybt"><a href="{{ $pcmaker->afurl}}" target=_blank>購入画面はこちら</div></li>
+            <l1><div class = "buybt"><a href="{{ $pcmaker->afurl}}" target=_blank>公式サイトはこちら</div></li>
         </a>
         </ul>
         </div>
