@@ -265,8 +265,8 @@ footer p{
 /*memo層*/
 /*メモ層のヘッダー部分*/
 .searchparts-memo-wrapper{
-    width: 100%;
-    height: 100%;
+    width: 20%;
+    height: 20%;
 }
 
 .memo-img-text{
