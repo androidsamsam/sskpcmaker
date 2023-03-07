@@ -263,18 +263,17 @@ footer p{
 }
 
 /*memo層*/
-/*-----サイト説明------*/
-.prheader{
+/*メモ層のヘッダー部分*/
+.prheader-memo{
     margin-top: 30px;
     left:30%;
     top:60%;
     font-size: 30px;
     text-align: center;
 }
-/*----絞り込み検索-----*/
-.searchparts{
+.searchparts-memo{
 margin-left: 10%;
-height:80%4;
+height:80%;
 width:80%;
 
 }
