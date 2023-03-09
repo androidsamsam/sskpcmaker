@@ -26,7 +26,9 @@
     <body>
         <div class = "memo-img-text">
         <div class = "memo-img"><img class="memo-img-pic" src="{{ $pcmakers ->image}}"></img></a></div>
- 
+        <div class = "memo-text">
+            <p>{{ $pcmakers->coment}}</p>
+        </div>
         </div>
         <div class = "memo-table">
             <table class = "memo-table-main" border ="1">
@@ -65,6 +67,7 @@
               </table> 
           </div>
           <div class = "memo-buybt"><div class = "buybt"><a href="{{ $pcmakers->afurl}}" target=_blank>公式サイト購入画面はこちら</a></div></div>
+
 
     </main>
     </body>
