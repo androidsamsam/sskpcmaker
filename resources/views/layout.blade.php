@@ -10,6 +10,8 @@
 
   gtag('config', 'UA-238597756-1');
 </script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1201782274406741"
+     crossorigin="anonymous"></script>
         <meta charset="UTF-8">
         <title>@yield('title')</title>
         <meta name="description" conntent="ゲーミングPCを検索">

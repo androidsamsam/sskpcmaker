@@ -19,6 +19,8 @@
     <link rel="stylesheet" hrref="http://unpkg.com/ress/dist/ress.min.css">
     <script src="https://kit.fontawesome.com/37671d8671.js" crossorigin="anonymous"></script>
     <script src="/js/app.js" defer></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1201782274406741"
+     crossorigin="anonymous"></script>
     </head>
     <header>
     <a href ="https://pcsearch.net/"><h2 class = gamingheader-memo>ゲーミングPC　検索サイト</h2></a>
