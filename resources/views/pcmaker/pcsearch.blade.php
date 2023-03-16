@@ -85,7 +85,7 @@
                 <Sspan>その他</span>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="ArcA750">ArcA750</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="ArcA770">ArcA770</label> 
-                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="内蔵グラフィック">内蔵グラフィック</label>              
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="inGPU">内蔵グラフィック</label>              
         
             </div>
             <div class="memorytype">
