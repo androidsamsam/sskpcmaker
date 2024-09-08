@@ -1,0 +1,494 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.gamingheader{
+    font-size: 2rem;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 40%;
+}
+
+/*-----サイト説明------*/
+.prheader{
+    margin-top: 30px;
+    left:30%;
+    top:60%;
+    font-size: 30px;
+    text-align: center;
+}
+/*----絞り込み検索-----*/
+.searchparts{
+margin-left: 10%;
+height:80%;
+width:80%;
+
+}
+.searchpro{
+    width: 25%;
+    margin-left: 2%;
+}
+
+input[type=checkbox] {
+    transform: scale(2);
+    margin: 0 20px;
+  }
+  
+.pcmakertype{
+    font-size: 20px;
+    margin-top: 15rem;
+    width: 20rem;
+}
+.intelcputype{
+    font-size: 20px;
+    width: 20rem;
+}
+
+.nvidiagputype{
+    font-size: 20px;
+    width: 20rem;
+}
+
+.memorytype{
+    font-size: 20px;
+    width: 20rem;
+}
+
+.searchtitlebrand{
+    background: linear-gradient(transparent 60%, #ffffe0 30%);
+    width: 50%;
+}
+
+.searchtitlecpu{
+    font-weight: bold;
+    background: linear-gradient(transparent 60%, rgb(253, 185, 255) 30%);
+    width: 50%;
+}
+
+.searchtitlegpu{
+    font-weight: bold;
+    background: linear-gradient(transparent 60%, rgb(193, 255, 185) 30%);
+    width: 50%;
+}
+
+.searchtitlememory{
+    font-weight: bold;
+    background: linear-gradient(transparent 60%, rgb(255, 185, 185) 30%);
+    width: 50%;
+}
+
+
+.tate{
+    display:block;
+    padding-top: 5%;
+}
+
+.search-item{
+    margin-top: 5%;
+    display:grid;
+    grid-template-columns: 22% 22% 22% ;
+    gap:100px 150px;
+    width: 100%;
+    height:100%;
+}
+
+.search-contents{
+    display: flex;
+    padding-top: 0;
+}
+
+.icon-nav{
+    display: flex;
+}
+
+.fa-brands{
+    font-size: 2rem;
+    
+    }
+
+.icon-nav li{
+    margin-top:5%;
+    margin-right: 5%;
+}
+
+.item-list{
+    width: 150%;
+    text-align: center;
+}
+
+
+
+.pclistpic{
+    height: 200px;
+    width: 200px;
+
+}
+
+.block{
+    margin-top: 30%;
+    width: 200px;
+    height: 500px;
+    font-size: 25px;
+}
+.pctitle{
+    font-size: 15px;
+    background: linear-gradient(transparent 60%, rgb(208, 255, 253) 30%);
+    width: 350px;
+}
+
+.sallbt a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 1em 2em;
+    width: 100px;
+    color: #acb122;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.buybt a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 200px;
+    color: #2285b1;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid #a0c4d3;
+    border-radius: 10px;
+  }
+  .buybt a::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #2285b1;
+    border-right: 3px solid #2285b1;
+    transform: rotate(45deg);
+  }
+
+  
+  .buybt a:hover {
+    color: #ffff;
+    text-decoration: none;
+    background-color: #a0c4d3;
+  }
+  
+  .buybt a:hover::after {
+    border-top: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+  }
+
+  /*絞り込み検索ボタン*/
+.picbtn{
+    color: #fc00b5;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid #cda0d3;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+_::-webkit-full-page-media,_:future,:root .picbtn{
+    background-color: #cfe0ff;
+    color: #fc00b5;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid #cda0d3;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    }
+
+.picbtn:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #d3a0d2;
+  }
+
+.topic-sec{
+    margin-top: 10%;
+}
+
+.toic-text{
+    color:#a0c4d3;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.topic{
+    width: 180px;
+    height: 80px;
+    margin: 30%;
+}
+.topica{
+    margin: 5%;
+    text-align: center;
+}
+
+.topic:hover{
+    filter: blur(2px);
+}
+
+.topic-all{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+      }
+
+
+
+.footer-nav{
+    display: flex;
+}
+
+.footer-menu{
+    display:flex;
+    margin-left: 30%;
+    margin-top:20%;
+}
+
+.footer-menu a{
+    padding: 5%;
+}
+
+footer p{
+    margin-left: 50%;
+}
+
+/*memo層*/
+/*メモ層のヘッダー部分*/
+
+.gamingheader-memo{
+    font-size: 1rem;
+    margin-left: 40%;
+    color: #ffff;
+    background-color: #0077c1;
+}
+
+
+.memo-img-text{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.memo-img{
+    width: 50%;
+    height: 50%;
+    margin-left: 10%;
+}
+
+.memo-text{
+    line-height: 50px;
+    width: 50%;
+    color: #333333;
+
+}
+
+.memo-table{
+    width: 100%;
+    margin-top: 5%;
+
+}
+.memo-table-main{
+    width: 100%;
+}
+
+.memo-table th{
+   vertical-align: middle;
+   height: 50px;
+}
+.memo-table td{
+    vertical-align: middle;
+    height: 50px;
+    text-align: center;
+ }
+
+ .memo-buybt{
+    text-align: center;
+    margin: 5%;
+ }
+
+ .memo-icon{
+    color: #9500ff;
+ }
+
+@media (max-width: 840px){
+    .block{
+        margin-left: 50%;
+        width: 60%;
+        height: 60%;
+    }
+
+    .gamingheader{
+        font-size: 2rem;
+        width: 100%;
+        height: fit-content;
+        margin-left: 70%;
+    }
+    .prheader{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 40%;
+        top:60%;
+        font-size: 30px;
+    }
+
+    .search-item{
+        margin-top: 10%;
+        margin-left: 20%;
+        display:grid;
+        grid-template-columns: 30% 30% ;
+        gap:80px 120px;
+        width: 100%;
+        height:100%;
+        padding-right: 30%;
+    }
+    .icon-nav li{
+        margin-top:10%;
+        margin-right: 10%;
+    }
+    
+
+
+    /*ヘッダー画像*/
+    .searchparts{
+        margin-left: 50%;
+    }
+
+    .topic-sec{
+        width: 1500px;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+
+    .topic-all{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        height: 150px;
+          }
+/*メモ階層レスポンシブ840*/
+.gamingheader-memo{
+    font-size: 1rem;
+    color: #ffff;
+    background-color: #0077c1;
+    margin-left: 10%;
+}
+.memo-img-text{
+    display: block;
+    height: auto;
+    width: auto;
+}
+.memo-text{
+    width: 100%;
+}
+    footer{
+        margin-top: 10%;
+    }
+    .footer-menu {
+        margin-left:25%;
+        }
+
+}
+@media (max-width: 420px){
+    .icon-nav li{
+        margin-top:10%;
+        margin-right: 10%;
+    }
+
+    .block{
+        margin-top: 70%;
+        margin-left: 50%;
+        width: 60%;
+        height: 60%;
+    }
+
+    .gamingheader{
+        font-size: 2rem;
+        width: 120%;
+        height: fit-content;
+        margin-left: 70%;
+    }
+    .prheader{
+        width: 100%;
+        margin-top: 30px;
+        top:60%;
+        font-size: 15px;
+        margin-left: 50%;
+    }
+
+    .search-item{
+        margin-top: 10%;
+        margin-left: 50%;
+        display:grid;
+        grid-template-columns:60%;
+        gap:80px 120px;
+        width: 100%;
+        height:100%;
+        padding-right:20%;
+    }
+
+    
+    /*ヘッダー画像*/
+    .searchparts{
+        height: 150px;
+        width: 500px;
+    }
+
+
+/*削除済み記事アイコン*/
+  /*  .topic-sec{
+        width: 1500px;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+
+
+    .topic-all{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        height: 150px;
+          }
+              */
+ .gamingheader-memo{
+    font-size: 1rem;
+    color: #ffff;
+    background-color: #0077c1;
+    margin-left: 10%;
+}
+
+.gamingheader-memo{
+    font-size: 1rem;
+    color: #ffff;
+    background-color: #0077c1;
+    margin-left: 10%;
+}
+.memo-img-text{
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+.memo-text{
+    width: 100%;
+}
+
+    footer{
+        margin-top: 50%;
+    }
+    .footer-menu {
+        padding: 5%;
+        font-size: 5px;
+
+        }
+
+}

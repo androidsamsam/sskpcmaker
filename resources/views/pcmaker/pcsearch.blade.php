@@ -16,49 +16,77 @@
             <div class="intelcputype">
                 <p class ="searchtitlecpu">CPU</p>
                 <span>Intel製CPU</span>
-                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i5-10400F">core-i5-10400F</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i5-12400">core-i5-12400</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i5-12400F">core-i5-12400F</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i5-13400F">core-i5-13400F</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i5-13600KF">core-i5-13600KF</label>
-                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i7-10700F">core-i7-10700F</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i5-13600KF">core-i5-13600KF</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i7-11700">core-i7-11700</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i7-12700">core-i7-12700</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i7-12700F">core-i7-12700F</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i7-12700K">core-i7-12700K</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i7-13700F">core-i7-13700F</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i7-13700K">core-i7-13700K</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i7-13700KF">core-i7-13700KF</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ccore-i9-11900K">core-i9-11900K</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i9-12900K">core-i9-12900K</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i9-12900KF">core-i9-12900KF</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i9-13900KF">core-i9-13900KF</label>
-                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="corei9-13900F">corei9-13900F</label></br></br>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i9-13900F">core-i9-13900F</label></br></br>
                 <Sspan>AMD製CPU</span>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-5-3500">ryzen-5-3500</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-5-4500">ryzen-5-4500</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-5-5600X">ryzen-5-5600X</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-5-7600">ryzen-5-7600</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-5-7600X">ryzen-5-7600X</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-5700X">ryzen-7-5700X</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-5800">ryzen-7-5800</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-5800X">ryzen-7-5800X</label>
-                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-7700X">cryzen-7-7700X</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-7700">ryzen-7-7700</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-7700X">ryzen-7-7700X</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-5900">ryzen-9-5900</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-5900X">ryzen-9-5900X</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-7900X">ryzen-9-7900X</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-5950X">ryzen-9-5950X</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-7900">ryzen-9-7900</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-7900X">ryzen-9-7900X</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-7950X">ryzen-9-7950X</label>
             </div>  
             <div class="nvidiagputype">
                 <p class ="searchtitlegpu">GPU</p>
-                <Sspan>GTX & RTX30シリーズ</span>
+                <span>GTX & RTX30シリーズ</span>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="GTX1650">GTX1650</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="GTX1660SUPER">GTX1660SUPER</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="GTX1660Ti">GTX1660Ti</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3050">RTX3050</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3060">RTX3060</label>
-                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3060ti">RTX3060Ti</label>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3060Ti">RTX3060Ti</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3070">RTX3070</label>
-                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3070ti">RTX3070Ti</label>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3070Ti">RTX3070Ti</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3080">RTX3080</label>
-                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3080ti">RTX3080Ti</label>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3080Ti">RTX3080Ti</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3090">RTX3090</label></br></br>
-                <Sspan>最新RTX40シリーズ</span>
+                <span>最新RTX40シリーズ</span>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4070">RTX4070</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4070Ti">RTX4070Ti</label>
-                <label class="tate"></label><input type="checkbox" name = "gpu[]" value=RTX4080">RTX4080</label>               
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4080">RTX4080</label>               
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4090">RTX4090</label></br></br>
                 <Sspan>RX6000シリーズ</span>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6500XT">RX6500XT</label>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6600">RX6600</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6600XT">RX6600XT</label>
-                <label class="tate"></label><input type="checkbox" name = "gpu[]" value=RX6700XT">RX6700XT</label>               
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6650XT">RX6650XT</label>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6700XT">RX6700XT</label>     
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6750XT">RX6750XT</label>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6900XT">RX6900XT</label>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6950XT">RX6950XT</label>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX7900XT">RX7900XT</label>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX7900XTX">RX7900XTX</label></br></br>             
+                <Sspan>その他</span>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="ArcA750">ArcA750</label>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="ArcA770">ArcA770</label> 
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="inGPU">内蔵グラフィック</label>              
+        
             </div>
             <div class="memorytype">
                 <p class ="searchtitlememory">メモリ</p>
