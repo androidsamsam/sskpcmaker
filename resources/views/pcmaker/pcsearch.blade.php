@@ -17,7 +17,7 @@
                 <p class ="searchtitlecpu">CPU</p>
                 <span>Intel製CPU</span>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i5-10000F">core-i5-10000F</label>
-                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i5-12400F">core-i5-12400F</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i5-14400F">core-i5-14400F</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i5-13400F">core-i5-13400F</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i5-13600KF">core-i5-13600KF</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="core-i5-13600KF">core-i5-13600KF</label>
