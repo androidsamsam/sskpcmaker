@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-//商品絞り込み検索
-Route::post('/pcpc','App\Http\Controllers\PcmakerController@pcshowList')->name('pcbrandshow');
-Route::get('/','App\Http\Controllers\PcmakerController@pcallshowList')->name('pcall');
+
+Route::post('/pcpc','app\Http\Controllers\PcmakerController@pcshowList')->name('pcbrandshow');
+Route::get('/','app\Http\Controllers\PcmakerController@pcallshowList')->name('pcall');
 
