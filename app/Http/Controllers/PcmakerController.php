@@ -1,13 +1,14 @@
 <?php
 
-namespace app\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use app\Models\Pcmaker;
+use App\Models\Pcmaker;
 
 class PcmakerController extends Controller
 {
     /**
+     *PC詳細を表示する
      *@return view
      */
 
