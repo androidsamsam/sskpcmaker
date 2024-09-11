@@ -8,6 +8,7 @@
             <p><input type="submit" value="絞り込み検索" class = "picbtn"></p>
             <label class="tate"><input type="checkbox" name = "campaign[]" value="SallNow Click!!">セール中商品ピックアップ！</label>
             <p class ="searchtitlebrand">ブランド</p>
+            <label class="tate"><input type="checkbox" name = "brand[]" value="mousecomputer">mousecomputer</label>
             <label class="tate"><input type="checkbox" name = "brand[]" value="OMEN">OMEN</label>
             <label class="tate"></label><input type="checkbox" name = "brand[]" value="FRONTIER">FRONTIER</label>
             <label class="tate"></label><input type="checkbox" name = "brand[]" value="GALLERIA">GALLERIA</label>
