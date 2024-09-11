@@ -5,7 +5,7 @@
     <div class=prheader>
 <P>人気ゲーミングPCを</P>
 <p>ブランドの枠を超えて一括で検索</P>
-<p>対象ブランドはOMEN、FRONTIER、Alienware、GALLERIA</P>
+<p>対象ブランドはマウスコンピューター、HP(OMNE、Victus)、FRONTIER、Alienware、GALLERIA</P>
 <p>モデル名のメモアイコンから、特徴などの解説を確認できます。</p>
-<p>2023年3月8日(水)時点価格</p>
+<p>2024年9月11日(水)時点価格</p>
     </div>
