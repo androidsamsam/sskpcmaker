@@ -25,6 +25,7 @@ class PcmakerController extends Controller
         $gpu = $request->input('gpu');
         $memory = $request->input('memory');
         $campaign = $request->input('campaign');
+        $coment = $request->input('coment');
       
         $pcmakers = Pcmaker::query()
         ->when(!is_null($brand), function($query) use ($brand)
@@ -45,6 +46,9 @@ class PcmakerController extends Controller
       })
       ->when(!is_null($campaign), function($query) use ($campaign) 
       {$query->whereIn('campaign',$campaign);
+      })
+      ->when(!is_null($coment), function($query) use ($coment) 
+      {$query->whereIn('coment',$coment);
     })
 
       ->get();
@@ -81,7 +85,7 @@ class PcmakerController extends Controller
           return view('pcmaker.memo', ['power' => $power,'pcmakers'=>$pcmakers]);
           return view('pcmaker.memo', ['price' => $price,'pcmakers'=>$pcmakers]);
           return view('pcmaker.memo', ['campaign' => $campaign,'pcmakers'=>$pcmakers]);
-          return view('pcmaker.memo', ['coment' => $campaign,'pcmakers'=>$pcmakers]);
+          return view('pcmaker.memo', ['coment' => $coment,'pcmakers'=>$pcmakers]);
       }
 
 }
