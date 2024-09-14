@@ -13,6 +13,7 @@
             <label class="tate"></label><input type="checkbox" name = "brand[]" value="FRONTIER">FRONTIER</label>
             <label class="tate"></label><input type="checkbox" name = "brand[]" value="GALLERIA">GALLERIA</label>
             <label class="tate"><input type="checkbox" name = "brand[]" value="Alienware">Alienware</label>
+            <label class="tate"><input type="checkbox" name = "brand[]" value="PCKOUBO">パソコン工房</label>
              </div>
             <div class="intelcputype">
                 <p class ="searchtitlecpu">CPU</p>
