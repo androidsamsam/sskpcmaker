@@ -61,7 +61,7 @@
             </div>  
             <div class="nvidiagputype">
                 <p class ="searchtitlegpu">GPU</p>
-                <span>GTX & RTX30シリーズ</span>
+             <!--    <span>GTX & RTX30シリーズ</span>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="GTX1650">GTX1650</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="GTX1660SUPER">GTX1660SUPER</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="GTX1660Ti">GTX1660Ti</label>
@@ -72,11 +72,14 @@
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3070Ti">RTX3070Ti</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3080">RTX3080</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3080Ti">RTX3080Ti</label>
-                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3090">RTX3090</label></br></br>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="rtx3090">RTX3090</label></br></br> -->
                 <span>NVIDIA</span>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4070">RTX4070</label>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4070SUPER">RTX4070 SUPER</label>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4070Ti">RTX4070Ti</label>
-                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4080">RTX4080</label>               
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4070TiSUPER">RTX4070Ti SUPER</label>
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4080">RTX4080</label>     
+                <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4080SUPER">RTX4080 SUPER</label>                         
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RTX4090">RTX4090</label></br></br>
                 <Sspan>AMD</span>
                 <label class="tate"></label><input type="checkbox" name = "gpu[]" value="RX6500XT">RX6500XT</label>
