@@ -58,10 +58,10 @@ class PcmakerController extends Controller
       }
 
       /** 
-       * 記事詳細表示 
-       * @param int $id
-       * @return view
-     */
+       * 記事詳細表示      */
+         @param int $id
+         @return view
+
         public function memoshowList(Request $request , $id){ 
         $pcmakers = Pcmaker::find($id);
         $image = $request->input('image');
