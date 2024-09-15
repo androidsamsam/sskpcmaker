@@ -56,7 +56,7 @@ class PcmakerController extends Controller
 
         return view('pcmaker.pcsearch', ['brand' => $brand, 'pcmakers' => $pcmakers]);
       }
-
+      
       /** 
        * 記事詳細表示 
        * @param int $id
