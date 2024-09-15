@@ -28,7 +28,7 @@
         @include('header')
     </header>
     <body>
-    <a href="{{url('/memomemo')}}"> </a>
+    <a href="{{url('/memo')}}"> </a>
     <div class="search-contents wrapper">
         <aside class="searchpro">
         @yield('searchside')
