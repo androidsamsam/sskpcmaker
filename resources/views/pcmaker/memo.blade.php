@@ -24,6 +24,7 @@
     <a href ="https://pcsearch.net/"><h2 class = gamingheader-memo>ゲーミングPC　検索サイト</h2></a>
     </header>
     <body>
+    <a href = "https://pcsearch.net/"><h3>ホームに戻る</h3></a>
         <div class = "memo-img-text">
         <div class = "memo-img"><img class="memo-img-pic" src="{{ $pcmakers ->image}}"></img></a></div>
         <div class = "memo-text">
