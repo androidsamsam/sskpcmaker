@@ -280,9 +280,12 @@ footer p{
 }
 
 .memo-img{
-    width: 50%;
+    width: 300px; /* 幅を300pxに制限 */
+    height: auto; /* 縦横比を保つ */
+    max-width: 100%; /* 親要素の幅を超えないようにする */
+   /*  width: 50%;
     height: 50%;
-    margin-left: 10%;
+    margin-left: 10%; 今までの設定 */
 }
 
 .memo-text{
