@@ -6,9 +6,9 @@ html{
     font-size: 1.5rem; /* フォントサイズを少し小さく */
     margin: 10px; /* 少しだけ外側に余白を追加 */
     padding: 5px; /* 内側の余白を追加してバランスを調整 */
-    position: absolute; /* 左上に配置 */
+    position: absolute; /* 右上に配置 */
     top: 10px; /* 上からの距離 */
-    left: 10px; /* 左からの距離 */
+    right: 10px; /* 右からの距離 */
 }
 
 /*-----サイト説明------*/
