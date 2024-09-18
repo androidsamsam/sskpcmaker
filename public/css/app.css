@@ -336,12 +336,15 @@ footer p{
         height: 60%;
     }
 
-    .gamingheader{
-        font-size: 2rem;
-        width: 100%;
-        height: fit-content;
-        margin-left: 70%;
+    .gamingheader {
+        font-size: 2rem; /* フォントサイズを大きくする */
+        width: fit-content; /* 幅はコンテンツに合わせる */
+        height: fit-content; /* 高さもコンテンツに合わせる */
+        right: 10px; /* 右から10pxの位置 */
+        top: 10px; /* 上から10pxの位置 */
+        margin-left: unset; /* margin-leftを無効化 */
     }
+    
     .prheader{
         width: 100%;
         margin-top: 30px;
