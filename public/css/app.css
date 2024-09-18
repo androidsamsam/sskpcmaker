@@ -427,7 +427,7 @@ footer p{
         font-size: 0.5rem; /* フォントサイズをさらに小さく */
         width: fit-content; /* 幅はコンテンツに合わせる */
         height: fit-content; /* 高さもコンテンツに合わせる */
-        right: 70%; 
+        right: 65%; 
         top: 10px; /* 上から10pxに位置を指定 */
         margin-left: unset; /* margin-leftをリセット */
     }
