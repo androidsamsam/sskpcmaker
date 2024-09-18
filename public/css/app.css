@@ -3,10 +3,12 @@ html{
 }
 
 .gamingheader{
-    font-size: 2rem;
-    width: fit-content;
-    height: fit-content;
-    margin-left: 40%;
+    font-size: 1.5rem; /* フォントサイズを少し小さく */
+    margin: 10px; /* 少しだけ外側に余白を追加 */
+    padding: 5px; /* 内側の余白を追加してバランスを調整 */
+    position: absolute; /* 左上に配置 */
+    top: 10px; /* 上からの距離 */
+    left: 10px; /* 左からの距離 */
 }
 
 /*-----サイト説明------*/
