@@ -424,7 +424,7 @@ footer p{
     }
 
     .gamingheader {
-        font-size: 1rem; /* フォントサイズをさらに小さく */
+        font-size: 0.2rem; /* フォントサイズをさらに小さく */
         width: fit-content; /* 幅はコンテンツに合わせる */
         height: fit-content; /* 高さもコンテンツに合わせる */
         right: 40%; 
