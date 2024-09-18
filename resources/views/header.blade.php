@@ -1,5 +1,6 @@
-<h2 class = gamingheader>ゲーミングPC　検索サイト</h2>
-<a href ="https://pcsearch.net/"><img class="searchparts" src = "{{asset('storage/pcsearcher2024.jpg')}}"></a>
+<h2 href ="https://pcsearch.net/" class = gamingheader>ゲーミングPC　検索サイト</h2>
+<a href ="https://pcsearch.net/"><img class="searchparts" src = "https://onikari.com/img/"></a>
+<!--<img class="searchparts" src = "{{asset('storage/pcsearcher2024.jpg')}}"> -->
 </div>
 </div>
     <div class=prheader>
