@@ -26,6 +26,9 @@
     </head>
     <header>
         @include('header')
+        <script type="text/javascript" language="javascript">
+    var vc_pid = "890881839";
+   </script><script type="text/javascript" src="//aml.valuecommerce.com/vcdal.js" async></script>
     </header>
     <body>
     <a href="{{url('/memomemo')}}"> </a>
