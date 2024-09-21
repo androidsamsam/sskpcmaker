@@ -41,7 +41,7 @@
         <div class = "block">
         <ul style="list-style: none;", class = "item-list">
             <li><a class = "pctitle">{{ $pcmaker->product}}</a><a href ="/pcpc/{{ $pcmaker->id }}" target=_blank><div class = "memo-icon"><i>おすすめポイント！</i></div></a></li>
-            <li><div class = "sallbt"><a href = "{{ $pcmaker->campaignurl}}" target=_blank>{{$pcmaker->campaign}}</a></div></li>
+            <!--<li><div class = "sallbt"><a href = "{{ $pcmaker->campaignurl}}" target=_blank>{{$pcmaker->campaign}}</a></div></li>-->
             <li><a href = "{{ $pcmaker->afurl}}" target=_blank><img class="pclistpic" src="{{ $pcmaker->image}}"></img></a></li>
             <li><a>ブランド：{{ $pcmaker->pcmaker}}</a></li>
             <li><a>CPU：{{ $pcmaker->cpu}}</a></li>
