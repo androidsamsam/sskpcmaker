@@ -53,10 +53,10 @@
                   <th>ストレージ</th>
                   <td>{{ $pcmakers->storage}}</td>
                 </tr>
-                <tr>
+              <!--  <tr>
                   <th>電源</th>
                   <td>{{ $pcmakers->power}}</td>
-                </tr>
+                </tr> -->
                 <tr>
                   <th>価格</th>
                   <td>{{ $pcmakers->price}}円</td>
