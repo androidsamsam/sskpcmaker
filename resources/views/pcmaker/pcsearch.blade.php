@@ -23,6 +23,7 @@
                 <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i5-13500">Core i5-13500</label>
                 <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i5-13400">Core i5-13400</label>-->
                 <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i5-14400">Core i5-14400</label>
+                <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i5-14400">Core i5-14400F</label>
                <!--   <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i7-13700">Core i7-13700</label>
                 <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i7-13700K">Core i7-13700K</label>
                 <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i7-13700KF">Core i7-13700KF</label> -->
@@ -33,6 +34,7 @@
                 <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i9-13900K">Core i9-13900K</label>
                 <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i9-13900KF">Core i9-13900KF</label> -->
                 <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i9-14900">Core i9-14900</label>
+                <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i9-14900F">Core i9-14900F</label>
                 <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i9-14900K">Core i9-14900K</label>
                 <label class="tate"></label><input type="checkbox" name="cpu[]" value="core-i9-14900KF">Core i9-14900KF</label></br></br>
                 <span>AMD製CPU</span>
