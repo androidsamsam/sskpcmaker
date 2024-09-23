@@ -23,6 +23,7 @@
     <link rel="stylesheet" hrref="http://unpkg.com/ress/dist/ress.min.css">
     <script src="https://kit.fontawesome.com/37671d8671.js" crossorigin="anonymous"></script>
     <script src="/js/app.js" defer></script>
+    <link rel="shortcut icon" href="https://storage.googleapis.com/pcsearch.net/favicon.png">
     </head>
     <header>
         @include('header')
