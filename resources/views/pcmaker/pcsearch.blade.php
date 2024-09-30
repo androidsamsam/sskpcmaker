@@ -6,7 +6,7 @@
 
             <div class="pcmakertype">
             <p><input type="submit" value="絞り込み検索" class = "picbtn"></p>
-            <label class="tate"><input type="checkbox" name = "campaign[]" value="SallNow Click!!">セール中商品ピックアップ！</label>
+            <label class="tate"><input type="checkbox" name = "campaign[]" value="osusume">必見pig太朗おすすめモデル</label>
             <p class ="searchtitlebrand">ブランド</p>
             <label class="tate"><input type="checkbox" name = "brand[]" value="mousecomputer">mousecomputer</label>
             <label class="tate"><input type="checkbox" name = "brand[]" value="OMEN">OMEN</label>
