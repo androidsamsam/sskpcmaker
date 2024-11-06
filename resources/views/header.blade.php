@@ -7,13 +7,12 @@
 <P>色々なメディアで調べたスペックをこのサイトで最終確認して最適な選択をしてください</P>
 <p>対象ブランドはマウスコンピューター、HP(OMEN、Victus)、FRONTIER(セールモデルのみ)、GALLERIA、パソコン工房(コラボPC除く)</P>
 <!--<p>モデル名のメモアイコンから、特徴などの解説を確認できます。</p> -->
-<p>データ抽出は2024年11月1日(金)に行いました。毎週金曜日にデータを更新。</p>
+<p>データ抽出は臨時で2024年11月6日(水)に行いました。毎週金曜日にデータを更新。</p>
 <a>このサイト限定のお得情報!!</a>
 <br>
 <a class="campaign1" href="https://onikari.com/dospara-secret-coupon">ドスパラ特別クーポン券最大5,000円引き</a>
 <br>
-<a class="campaign2" href="https://onikari.com/secret/">OMEN・Victus7%OFFシークレットクーポン</a>
+<a class="campaign2" href="https://onikari.com/omen-sall/#st-toc-h-2">OMEN・Victus【7%OFF適用】と書かれているモデルはこちらを確認</a>
 <br>
 <a class="add">(当サイトはアフィリエイトプログラムによる収益を得ています)</a>
-
     </div>
