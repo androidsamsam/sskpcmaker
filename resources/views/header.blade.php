@@ -14,5 +14,5 @@
 <br>
 <a class="campaign2" href="https://onikari.com/omen-sall/#st-toc-h-2">OMEN・Victus【7%OFF適用】と書かれているモデルはこちらを確認</a>
 <br>
-<a class="add">(当サイトはアフィリエイトプログラムによる収益を得ています)</a>
+<a class="add">(当サイトはアフィリエイトプログラムによる収益を得ています。収益の一部は教育に関する寄付団体に寄付しています。)</a>
     </div>
