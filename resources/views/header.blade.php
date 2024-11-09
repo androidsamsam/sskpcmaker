@@ -10,7 +10,7 @@
 <p>データ抽出は2024年11月8日(金)に行いました。毎週金曜日にデータを更新。</p>
 <a>このサイト限定のお得情報!!</a>
 <br>
-<a class="campaign1" href="https://onikari.com/dospara-secret-coupon">ドスパラ特別クーポン券最大5,000円引き</a>
+<a class="campaign1" href="https://onikari.com/dospara-secret-coupon">ドスパラ特別クーポン券最大5,000円引き(開催セール併用可)</a>
 <br>
 <a class="campaign2" href="https://onikari.com/omen-sall/#st-toc-h-2">OMEN・Victus【7%OFF適用】と書かれているモデルはこちらを確認</a>
 <br>
