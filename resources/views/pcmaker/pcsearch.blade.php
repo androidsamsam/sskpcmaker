@@ -53,6 +53,7 @@
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-7800X3D">Ryzen-7-7800X3D</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-8700G">Ryzen-8700G</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-9700X">Ryzen-7-9700X</label>
+                <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-7-9800X3D">Ryzen-7-9800X3D</label>
                 <!-- <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-5900">ryzen-9-5900</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-5900X">ryzen-9-5900X</label>
                 <label class="tate"></label><input type="checkbox" name = "cpu[]" value="ryzen-9-5950X">ryzen-9-5950X</label>-->
